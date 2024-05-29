@@ -1,3 +1,27 @@
-body {
+nav {
+ color: #ffffff;
+    position: fixed;
+  wdith: 100vw;
+  top: 0;
+  left: 0;
+  padding: 8px;
 
+}
+li {
+  padding: 25px;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", "Papyrus";
+  text-decoration-line: underline;
+  text-decoration-color: pink;
+  text-decoration-thickness: 7px;
+  text-shadow: 1px 1px 3px #FFB6C1;
+}
+body {
+  background-color: pink;
+}
+li:hover {
+  background-color: #ffecf2;
+}
+a{
+  color: #ffffff;
 }
